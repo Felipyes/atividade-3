@@ -1,0 +1,115 @@
+body {font-family:tahoma, Geneva, verdana, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+header { background-color: #0056b3;
+    color:rgb(255, 255, 255)
+    padding: 20px 0;
+    text-align: center;
+}
+nav { background-color: #007bff;
+    padding:15px;
+    text-align: center;
+
+}
+nav a {color: white;
+margin:0 20px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover{text-decoration;
+}
+section{
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px;
+    border-radius:8px;
+}
+h2 {color: #333;
+border-bottom: 2px solid #ddd;
+padding-bottom: 10px;
+margin-bottom:20px;
+}
+.product{border: 1px solid #ddd;
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+background-color: #f9f9f9;
+transition: box-shadow 0.9s ease, transform 0.3s ease;
+}
+.product:hover {
+box-shadow: 0 4px 8px rgba (0, 0, 0, 0.2);
+transform:translateY(-5px);
+}
+.product h3 {margin-top: 0;
+color:#0056b3}
+.product p{
+    color: #555;
+}
+footer{
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+font-size: 0.9em;}
+    @media(max-width: 768px){
+footer {
+    font-size: 0.8em;
+}}
+#imagem-display{
+    text-align: center;
+    margin-top: 20px;
+}
+#product-image{
+    display:none;
+    max-width:100% ;
+    height:auto
+    box-shadow:0 4px 8px; rgba(0, 0, 0, 0,2);
+    border: radius 8px;
+    transition: opacity 0.3 ease;
+}
+{
+    transition: all 0.3 ease;
+}
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+    
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .product {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .product h3 {
+        font-size: 1.2em;
+    }
+
+    nav a {
+        margin: 5px 0;
+        font-size: 1em;
+    }
+}
